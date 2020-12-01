@@ -80,6 +80,16 @@ WSGI_APPLICATION = 'blog.wsgi.application'
   #      'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
  #   }
 #}
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'HOST': '127.0.0.1',
+        'PORT': 3306,
+        'USER': 'root',
+        'PASSWORD': 'Testyi@123',
+        'NAME': 'stu_blog',
+    },
+}
 
 
 # Password validation
